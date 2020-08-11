@@ -14,10 +14,10 @@ finalScore.innerText = mostRecentScore
  var scorePer = mostRecentScore;
     console.log(scorePer)
 
-    let img = (scorePer > 40) ? "img/5.png" :
-    (scorePer >= 30) ? "img/4.png" :
-    (scorePer >= 20) ? "img/3.png" :
-    (scorePer >= 10) ? "img/2.png" :
+    let img = (scorePer >= 140) ? "img/5.png" :
+    (scorePer >= 100) ? "img/4.png" :
+    (scorePer >= 70) ? "img/3.png" :
+    (scorePer >= 30) ? "img/2.png" :
     "img/1.png";
 
 
